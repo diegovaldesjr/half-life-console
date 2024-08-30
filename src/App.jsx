@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { HLConsoleHeader } from "./components/HLConsoleHeader"
 
-const App = () => {
+export const App = () => {
   const [history, setHistory] = useState([])
   const [inputValue, setInputValue] = useState('')
 
