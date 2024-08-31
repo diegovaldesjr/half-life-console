@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Half-Life Console GUI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Half-Life Console GUI](./path-to-screenshot.png)
 
-## Available Scripts
+Este proyecto es una interfaz gráfica de usuario (GUI) inspirada en la consola Half-Life. Está construido con React y proporciona una representación visual de la consola del juego. 
 
-In the project directory, you can run:
+Este proyecto fue for fun.
 
-### `npm start`
+![Captura de Pantalla](./public/capture.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Índice
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Características](#características)
+- [Requisitos](#requisitos)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
 
-### `npm test`
+## Características
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Interfaz moderna y accesible construida con React.
+- Simulación de la interfaz grafica de la consola del juego Half-Life.
+- Respuesta interactiva en tiempo real a los comandos ingresados.
+- Barra de desplazamiento estilizada con sombras para una mejor experiencia visual.
+- Adaptación para múltiples resoluciones y dispositivos.
 
-### `npm run build`
+## Requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (versión 14 o superior)
+- npm o yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalación
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clona el repositorio:
 
-### `npm run eject`
+    ```bash
+    git clone https://github.com/diegovaldesjr/half-life-console.git
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navega al directorio del proyecto:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    cd half-life-console
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Instala las dependencias del proyecto:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    npm install
+    ```
 
-## Learn More
+    O si prefieres usar `yarn`:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    yarn install
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Uso
 
-### Code Splitting
+1. Inicia el servidor de desarrollo:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```bash
+    npm start
+    ```
 
-### Analyzing the Bundle Size
+    O si usas `yarn`:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    ```bash
+    yarn start
+    ```
 
-### Making a Progressive Web App
+2. Abre tu navegador y navega a `http://localhost:3000`. Deberías ver la GUI de la consola de Half-Life funcionando.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Tecnologías Utilizadas
 
-### Advanced Configuration
+- **React**: Biblioteca principal para construir la interfaz de usuario.
+- **CSS (Sass, Styled Components)**: Para el estilo de la aplicación, asegurando una estética adecuada a la consola de Half-Life.
+- **JavaScript (ES6+)**: Para la lógica de los componentes y el manejo de estados.
+- **React Hooks**: Para manejar el estado y los efectos dentro de la aplicación.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Half-Life Console GUI** es un proyecto personal inspirado en el clásico Half-Life y no tiene relación oficial con Valve Corporation. Todos los nombres y marcas registradas pertenecen a sus respectivos propietarios.
