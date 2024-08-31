@@ -1,12 +1,10 @@
 # Half-Life Console GUI
 
-![Half-Life Console GUI](./path-to-screenshot.png)
+![Half-Life Console GUI](./public/capture.png)
 
 Este proyecto es una interfaz gráfica de usuario (GUI) inspirada en la consola Half-Life. Está construido con React y proporciona una representación visual de la consola del juego. 
 
 Este proyecto fue for fun.
-
-![Captura de Pantalla](./public/capture.png)
 
 ## Índice
 
